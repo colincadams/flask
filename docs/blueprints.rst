@@ -79,7 +79,8 @@ decorator the blueprint will record the intention of registering the
 function `show` on the application when it's later registered.
 Additionally it will prefix the endpoint of the function with the
 name of the blueprint which was given to the :class:`Blueprint`
-constructor (in this case also ``simple_page``).
+constructor (in this case also ``simple_page``). It does not modify
+the url of the endpoint.
 
 Registering Blueprints
 ----------------------
